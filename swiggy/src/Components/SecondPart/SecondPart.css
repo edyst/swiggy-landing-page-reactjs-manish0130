@@ -1,0 +1,30 @@
+.boasting
+{
+    background-color: #2B1E16;
+    color:white;
+    padding-top:15px;
+    padding-bottom:80px;
+}
+.container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.feature img{
+    height:190px;
+    width:125px;
+}
+p{
+    line-height: 0.3;
+    color:#E0CBC1;
+}
+
+
+@media screen and (min-width:1px) and (max-width:1365px) {
+    .container{
+        justify-content:center;
+    }
+}
+@media screen and (min-width:1366px) {
+
+}

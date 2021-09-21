@@ -1,0 +1,207 @@
+.width {
+    width: 80%;
+    margin: auto;
+  }
+  .main-box {
+    display: flex;
+    justify-content: space-between;
+    height: 540px;
+  }
+  .intro {
+    width: 55%;
+    padding-top: 4%;
+  }
+  .intro .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn-one {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+  }
+  .login-btn {
+    text-decoration: none;
+    color: #000;
+    padding: 5px 15px;
+    margin-right: 2%;
+    font-weight: 600;
+  }
+  .login-btn:hover {
+    color: #fc8019;
+  }
+  .signup-btn {
+    padding: 11px 20px 11px 20px;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+  }
+  .signup-btn:hover {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  }
+
+  .contain {
+    margin-top: 5%;
+  }
+
+  .contain p:nth-child(2) {
+    font-size: 25px;
+    color: #A9ABB2;
+  }
+  .para-above-srch {
+    margin: 0;
+    line-height: 2;
+    color:#A9ABB2;
+    text-align:left;
+  }
+  .input-container {
+    margin-top: 4%;
+    position: relative;
+
+  }
+  .input-container input[type="text"] {
+    width: 90%;
+    height: 58px;
+    padding: 0px 12px;
+    margin-right:88px;
+    border-radius: 0px;
+    border: 1px solid #7E808C;
+    caret-color: #FC8019;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .input-container input[type="text"]::placeholder {
+    font-size: 15px;
+    font-weight: 600;
+    color: #7E808C;
+  }
+  .input-container input[type="text"]:focus {
+    outline-color: #fc8019;
+  }
+  .input-container .locate-btn {
+    position: absolute;
+    color:#535665;
+    top: 12px;
+    right: 20%;
+    padding: 10px 8px;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .input-container .locate-btn:hover {
+    background-color: #E9E9EB;
+  }
+  .input-container .locate-btn  {
+    font-size: 15px;
+    margin-right: 5px;
+    padding-right:5px;
+  }
+  .input-container .food-btn {
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    padding: 0 20px;
+    height: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    background-color: #fc8019;
+    border: none;
+    cursor: pointer;
+  }
+  .cities {
+    margin-top: 5%;
+  }
+  .cities p:first-child {
+    color: #686b78;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .cities .city-names {
+    padding: 10px 0px;
+    color: #93959F;
+    font-weight: 600;
+
+  }
+
+  .acgkb {
+    color: #686B78;
+
+  }
+  .cities .city-names li {
+    display: inline-block;
+    margin-right: 2%;
+    cursor: pointer;
+  }
+  .right-div
+  {
+
+
+    margin-top: 0;
+    text-align: center;
+  }
+  .right-div img{
+    position: relative;
+
+    top:-169px;
+    right:0;
+
+    width: 40vw;
+    object-fit: contain;
+ }
+
+ .transition
+ {
+   text-align: left;
+
+
+ }
+ span:before{
+   content: '';
+   animation: animate  infinite 15s;
+   text-align: left;
+
+ }
+ span
+ {
+   font-size: 40px;
+   text-align: left;
+   font-weight: 600;
+   color:#282C3F;
+
+ }
+ @keyframes animate{
+   0%{
+     content : "Hungry?";
+   }
+
+   20%{
+    content : "Unexpected Guest?";
+  }
+
+  40%{
+    content : "Cooking gone wrong?";
+  }
+
+  60%{
+    content : "Movie marathon?";
+  }
+  80%{
+    content : "Game night?";
+  }
+  100%{
+    content : "Late night at office?";
+  }
+
+ }
+ @media screen and (min-width:1px) and (max-width:1365px) {
+
+}
+@media screen and (min-width:1366px) {
+
+}
